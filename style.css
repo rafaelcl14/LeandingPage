@@ -1,0 +1,636 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    width: 1440px;
+    height: 5189px;
+    border-style: solid;
+    margin-left: 10px;
+}
+
+.mae-nav{
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 45.62px;
+    padding-bottom: 88.49px;
+    justify-content: space-between;
+
+}
+
+.filho-1 img{
+    width: 148px;
+    height: 36.23px;
+}
+
+.filho-2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.filho-2 h1{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: #4F5665; 
+}
+
+.neto-1{
+    display: flex;
+    align-items: center;
+
+}
+
+.neto-1 h1{
+   
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: ;
+}
+
+.filho-3{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.mae-header{
+    padding-left: 150px;
+}
+
+.filho-4{
+    display: flex;
+    flex-direction: column;
+}
+
+.pai-2{
+   display: flex;
+   flex-direction: row;
+   gap: 40.76px;
+}
+
+.filho-4{
+    width: 555px;
+    height: 150px;
+    
+}
+
+
+.filho-4 h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+}
+
+.filho-5{
+    
+    width: 555px;
+    height: 60px;
+    
+}
+
+.filho-5 h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.filho-6{
+    padding-top: 50px;
+    width: 250px;
+    height: 85.20px;
+}
+
+.filho-6 button{
+    width: 250px;
+    height: 60px;
+    background: #F53838;
+    border-radius: 10px;
+    border: white;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.mae-header-2 img{
+    width: 611.24px;
+    height: 382.44px;
+}
+
+.pai-3{
+   display: flex;
+   justify-content: center;
+}
+
+.mae-header-3{
+    width: 1140px;
+    height: 200px;
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 103px;
+}
+
+
+.filho-7{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 36.5px;
+    
+}
+.neto-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.neto-2 h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+}
+
+.neto-2 h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.filho-8{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    gap: 36.5px;
+    
+}
+
+.filho-9{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 36.5px;
+    
+}
+
+.linha{
+    padding-right: 53px;
+    padding-left: 67.5px;
+}
+
+.mae-header-4{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.filho-10{
+    display: flex;
+    flex-direction: row;
+    padding-left: 184.52px;
+    gap: 169.48px;
+}
+
+.filho-img{
+    padding-top:95.83px;
+}
+
+.neto-4{
+    display: flex;
+    flex-direction: row; 
+}
+
+.neto-5 h1{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+    
+}
+
+.neto-5 {
+    padding-bottom: 20px;
+    padding-top: 150px;
+}
+
+.neto-5-1 h1{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+   
+}
+
+.neto-5-1 {
+   
+    padding-bottom: 20px;
+}
+
+.neto-3 {
+    
+    padding-top: 160   px;
+}
+
+.neto-4{
+    padding-bottom: 15px;
+}
+
+.neto-4 img{
+    
+    padding-right: 12.8px;
+    align-items: center;
+}
+
+.neto-4 h1{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.mae-header-5{
+    display: flex;
+    flex-direction: column;
+}
+
+.filho-11 h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.filho-11{
+    padding-top: 211.46px;
+    padding-bottom: 20px;
+}
+
+.filho-12 h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+
+.neto-6 h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color:#4F5665;
+}
+
+.neto-8 h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+
+
+.neto-6{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    padding-left: 69.87px;
+    
+}
+
+.neto-6 img {
+    padding-right: 25.61px;
+}
+
+.mae-header-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.neto-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 79.63px;
+}
+
+.neto-8 h1{
+    padding-top:30px ;
+    padding-bottom: 30px;
+}
+
+.neto-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:  120px;
+}
+
+.neto-7 h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+    padding-bottom: 20px;
+}
+
+.neto-7 button {
+   width: 177.88px;
+   height: 45px;
+   border: 2px solid #F53838;
+   box-sizing: border-box;
+   border-radius: 50px;
+   background-color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: red;
+}
+
+.filho-13{
+    background: #FFFFFF ;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 330px;
+    height: 760px;
+}
+
+/* hahahahahha */
+
+
+.neto-10 h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color:#4F5665;
+}
+
+.neto-9 h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+
+
+.neto-10{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    padding-left: 69.87px;
+    
+}
+
+.neto-10 img {
+    padding-right: 25.61px;
+}
+
+.mae-header-7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.neto-9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 79.63px;
+}
+
+.neto-9 h1{
+    padding-top:30px ;
+    padding-bottom: 30px;
+}
+
+.neto-11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:  90px;
+}
+
+.neto-11 h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+    padding-bottom: 20px;
+}
+
+.neto-11 button {
+   width: 177.88px;
+   height: 45px;
+   border: 2px solid #F53838;
+   box-sizing: border-box;
+   border-radius: 50px;
+   background-color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: red;
+}
+
+.filho-14{
+    background: #FFFFFF ;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 330px;
+    height: 760px;
+}
+
+/* 3- Card*/
+
+
+.neto-13 h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color:#4F5665;
+}
+
+.neto-12 h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+
+
+.neto-13{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    padding-left: 69.87px;
+    
+}
+
+.neto-13 img {
+    padding-right: 25.61px;
+}
+
+.mae-header-8{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.neto-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 79.63px;
+}
+
+.neto-12 h1{
+    padding-top:30px ;
+    padding-bottom: 30px;
+}
+
+.neto-14 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.neto-14 h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+    padding-bottom: 20px;
+}
+
+.neto-14 button {
+   width: 177.88px;
+   height: 45px;
+   border: 2px solid #F53838;
+   box-sizing: border-box;
+   border-radius: 50px;
+   background: #F53838;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+.filho-15{
+    background: #FFFFFF ;
+    border: 2px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 330px;
+    height: 760px;
+}
+
+.sogra-1{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-left: 174.14px;
+}
+
+/* Mapa Mundi */
+
+.mae-header-9{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.filho-16{
+    width: 383.41px;
+    height: 100px;
+    padding-bottom: 20px;
+
+}
+
+.filho-16 h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.filho-17{
+    width: 555px;
+    height: 60px;
+}
+
+.filho-17 h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+
+.filho-18{
+    width: 1060px;
+    height: 537.77px;
+}
