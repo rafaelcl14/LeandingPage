@@ -35,19 +35,26 @@
     gap: 40px;
 }
 
+
+
 .filho-2 h1{
    font-style: normal;
    font-weight: 400;
    font-size: 16px;
    line-height: 19px;
    color: #4F5665; 
+   cursor: pointer;
 }
 
 .neto-1{
     display: flex;
     align-items: center;
-
+    cursor: pointer;
 }
+
+
+
+
 
 .neto-1 h1{
    
@@ -114,6 +121,11 @@
     padding-top: 50px;
     width: 250px;
     height: 85.20px;
+}
+
+.filho-6 button:hover{
+    background: #ff0101fd;
+    cursor: pointer;
 }
 
 .filho-6 button{
@@ -370,6 +382,11 @@
     padding-bottom: 20px;
 }
 
+.neto-7:hover button{
+    background-color: red;
+    color: white;
+}
+
 .neto-7 button {
    width: 177.88px;
    height: 45px;
@@ -382,6 +399,11 @@
     font-size: 16px;
     line-height: 19px;
     color: red;
+    cursor: pointer;
+}
+
+.filho-13:hover{
+    border: 2px solid red;
 }
 
 .filho-13{
@@ -465,6 +487,11 @@
     padding-bottom: 20px;
 }
 
+.neto-11:hover button{
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
 .neto-11 button {
    width: 177.88px;
    height: 45px;
@@ -477,6 +504,11 @@
     font-size: 16px;
     line-height: 19px;
     color: red;
+    cursor: pointer;
+}
+
+.filho-14:hover{
+    border: 2px solid #ff0000;
 }
 
 .filho-14{
@@ -548,6 +580,12 @@
     align-items: center;
     justify-content: center;
     padding-top: 44px;
+    
+}
+
+.neto-14:hover button{
+    background-color: #f70000;
+    border: 2px solid #f70000;;
 }
 
 .neto-14 h1 {
@@ -572,6 +610,11 @@
     font-size: 16px;
     line-height: 19px;
     color: white;
+    cursor: pointer;
+}
+
+.filho-15:hover{
+    border: 2px solid #2de736; 
 }
 
 .filho-15{
@@ -781,6 +824,10 @@
 
 }
 
+.nora-2:hover{
+    border: 2px solid red;
+}
+
 .nora-2{
     width: 400px;
     height: 240px;
@@ -856,6 +903,10 @@
 .mae-header-16{
     padding-left: 340px;
 }
+
+.mae-header-16:hover button{
+    background-color: rgb(255, 38, 0);
+}
 .mae-header-16 button{
     width: 250px;
     height: 60px;
@@ -867,6 +918,7 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 25px;
+    cursor: pointer;
 }
 
 .pai-9{
@@ -939,6 +991,7 @@
     line-height: 30px;
     color: #0B132A;
     padding-bottom: 20px;
+    cursor: pointer;
     
 }
 
@@ -949,6 +1002,7 @@
     line-height: 30px;
     color: #4F5665;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 
 .filho-32  h1{
@@ -958,6 +1012,7 @@
     line-height: 30px;
     color: #4F5665;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 
 .filho-31 h1{
@@ -967,6 +1022,7 @@
     line-height: 30px;
     color: #4F5665;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 
 .mae-header-18{
