@@ -5,28 +5,32 @@
 }
 
 .container{
-    width: 1440px;
-    height: 5189px;
-    padding-left: 9%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 150px;
+}
+
+.pai{
+    display: flex;
+    justify-content: center;
 }
 
 .mae-nav{
+    width: 80%;
     display: flex;
     flex-direction: row;
-   
     align-items: center;
     justify-content: center;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 45.62px;
-    padding-bottom: 88.49px;
+    
     justify-content: space-between;
 
 }
 
 .filho-1 img{
-    width: 148px;
-    height: 36.23px;
+    width: 100%;
+    height: 100%;
 }
 
 .filho-2{
@@ -34,7 +38,6 @@
     flex-direction: row;
     gap: 40px;
 }
-
 
 
 .filho-2 h1{
@@ -52,18 +55,11 @@
     cursor: pointer;
 }
 
-
-
-
-
 .neto-1 h1{
-   
-
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    
 }
 
 .filho-3{
@@ -72,27 +68,34 @@
     gap: 30px;
 }
 
-.mae-header{
-    padding-left: 150px;
-}
 
 .filho-4{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
 
 .pai-2{
    display: flex;
    flex-direction: row;
-   gap: 40.76px;
+   
+   align-items: center;
+   gap: 169.76px;
+   width: 80%;
+   margin: 0 auto;
+   
 }
 
-.filho-4{
-    width: 555px;
-    height: 150px;
+.mae-header{
+    display: flex;
+    width: 39%;
+    height: 100%;
+    flex-direction: column;
+    
+    gap: 20px;
     
 }
-
 
 .filho-4 h1{
     font-style: normal;
@@ -103,9 +106,9 @@
 }
 
 .filho-5{
-    
-    width: 555px;
-    height: 60px;
+    display: flex;
+    width: 100%;
+    height: 60%;
     
 }
 
@@ -117,10 +120,13 @@
     color: #4F5665;
 }
 
+
 .filho-6{
-    padding-top: 50px;
-    width: 250px;
-    height: 85.20px;
+    display: flex;
+    
+    width: 16rem;
+    height: 60px; 
+    
 }
 
 .filho-6 button:hover{
@@ -129,8 +135,8 @@
 }
 
 .filho-6 button{
-    width: 250px;
-    height: 60px;
+    width: 100%;
+    height: 100%;
     background: #F53838;
     border-radius: 10px;
     border: white;
@@ -141,24 +147,30 @@
     line-height: 25px;
 }
 
+.mae-header-2{
+    display: flex;
+    width: 50%;
+}
+
 .mae-header-2 img{
-    width: 611.24px;
+    width: 100%;
+    
     height: 382.44px;
 }
 
 .pai-3{
    display: flex;
-   justify-content: center;
+   align-items: center;
+   flex-direction: row;
 }
 
 .mae-header-3{
-    width: 1140px;
-    height: 200px;
-   
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin-top: 103px;
+   justify-content: center;
+   
+    
 }
 
 
@@ -194,9 +206,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    
     gap: 36.5px;
-    
 }
 
 .filho-9{
@@ -212,22 +222,28 @@
     padding-left: 67.5px;
 }
 
+.pai-4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .mae-header-4{
     display: flex;
     flex-direction: column;
-    
 }
 
 .filho-10{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
-    padding-left: 184.52px;
     gap: 169.48px;
+    
 }
 
-.filho-img{
-    padding-top:95.83px;
-}
 
 .neto-4{
     display: flex;
@@ -243,10 +259,7 @@
     
 }
 
-.neto-5 {
-    padding-bottom: 20px;
-    padding-top: 150px;
-}
+
 
 .neto-5-1 h1{
     font-weight: normal;
@@ -263,8 +276,11 @@
 }
 
 .neto-3 {
-    
-    padding-top: 160   px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .neto-4{
@@ -272,7 +288,6 @@
 }
 
 .neto-4 img{
-    
     padding-right: 12.8px;
     align-items: center;
 }
@@ -285,10 +300,37 @@
     color: #4F5665;
 }
 
+.pai-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
 .mae-header-5{
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
+
+.conteudo-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .filho-11 h1{
     font-style: normal;
@@ -299,10 +341,7 @@
     color: #0B132A;
 }
 
-.filho-11{
-    padding-top: 211.46px;
-    padding-bottom: 20px;
-}
+
 
 .filho-12 h1{
     font-style: normal;
@@ -334,21 +373,19 @@
 .neto-6{
     display: flex;
     flex-direction: row;
-    padding-bottom: 10px;
-    padding-left: 69.87px;
+    background: crimson;
     
 }
 
-.neto-6 img {
-    padding-right: 25.61px;
-}
+
 
 .mae-header-6{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 60px;
+    width: 100%;
+    
 }
 
 .neto-8 {
@@ -356,7 +393,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 79.63px;
+    background: coral;
+    
 }
 
 .neto-8 h1{
@@ -369,7 +407,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top:  120px;
+    
+    background: darkblue;
 }
 
 .neto-7 h1 {
@@ -388,18 +427,18 @@
 }
 
 .neto-7 button {
-   width: 177.88px;
-   height: 45px;
+   width: 100%;
+   height: 100%;
    border: 2px solid #F53838;
    box-sizing: border-box;
    border-radius: 50px;
    background-color: white;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    color: red;
-    cursor: pointer;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 19px;
+   color: red;
+   cursor: pointer;
 }
 
 .filho-13:hover{
@@ -411,8 +450,12 @@
     border: 2px solid #DDDDDD;
     box-sizing: border-box;
     border-radius: 10px;
-    width: 330px;
-    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    background: chartreuse;
 }
 
 /* hahahahahha */
@@ -493,18 +536,18 @@
 }
 
 .neto-11 button {
-   width: 177.88px;
-   height: 45px;
+   width: 100%;
+   height: 100%;
    border: 2px solid #F53838;
    box-sizing: border-box;
    border-radius: 50px;
    background-color: white;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    color: red;
-    cursor: pointer;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 19px;
+   color: red;
+   cursor: pointer;
 }
 
 .filho-14:hover{
@@ -516,8 +559,8 @@
     border: 2px solid #DDDDDD;
     box-sizing: border-box;
     border-radius: 10px;
-    width: 330px;
-    height: 760px;
+    width: 100%;
+    height: 100%;
 }
 
 /* 3- Card*/
@@ -605,12 +648,12 @@
    box-sizing: border-box;
    border-radius: 50px;
    background: #F53838;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    color: white;
-    cursor: pointer;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 19px;
+   color: white;
+   cursor: pointer;
 }
 
 .filho-15:hover{
@@ -622,15 +665,15 @@
     border: 2px solid #F53838;
     box-sizing: border-box;
     border-radius: 10px;
-    width: 330px;
-    height: 760px;
+    width: 100%;
+    height: 100%;
 }
 
 .sogra-1{
     display: flex;
     flex-direction: row;
     gap: 50px;
-    padding-left: 174.14px;
+   
 }
 
 /* Mapa Mundi */
@@ -639,11 +682,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .filho-16{
-    width: 383.41px;
+    width: 100%;
     height: 100px;
     padding-bottom: 20px;
     padding-top: 150px;
@@ -660,8 +702,8 @@
 }
 
 .filho-17{
-    width: 555px;
-    height: 60px;
+    width: 100%;
+    height: 100%;
 }
 
 .filho-17 h1{
@@ -674,8 +716,8 @@
 }
 
 .filho-18{
-    width: 1060px;
-    height: 537.77px;
+    width: 100%;
+    height: 100%;
     padding-left: 190px;
     padding-top: 185.81px;
     padding-right: 191.02px;
@@ -683,15 +725,15 @@
 }
 
 .filho-19{
-    width: 1135.64px;
-    height: 208.32px;
+    width: 100%;
+    height: 100%;
     padding-left: 145px;
     padding-top: 6.45px;
 }
 
 .filho-20{
-    width: 447.81px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     padding-left: 496.61px;
     padding-right: 496.1px;
     padding-bottom: 20px;    
@@ -707,8 +749,8 @@
 }
 
 .filho-21{
-    width: 555px;
-    height: 60px;
+    width: 100%;
+    height: 100%;
     padding-left: 442.5px;
     padding-right: 442.5px;
     padding-bottom: 60px;
@@ -788,8 +830,8 @@
 }
 
 .neto-16{
-    width: 340px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     padding-top: 20px;
     padding-left: 30px;
 }
@@ -806,8 +848,8 @@
 }
 
 .nora-1{
-    width: 400px;
-    height: 240px;
+    width: 100%;
+    height: 100%;
     
     background: #FFFFFF;
     border: 2px solid  #F53838;
@@ -829,8 +871,8 @@
 }
 
 .nora-2{
-    width: 400px;
-    height: 240px;
+    width: 100%;
+    height: 100%;
     
     background: #FFFFFF;
     border: 2px solid #DDDDDD;
@@ -863,8 +905,8 @@
 }
 
 .filho-25 {
-    width: 371.61px;
-    height: 80px; 
+    width: 100%;
+    height: 100%;
     padding-bottom: 20px;  
 }
 
@@ -883,8 +925,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 1140px;
-    height: 233px;
+    width: 100%;
+    height: 100%;
     padding-left: 150px;
     background: #FFFFFF;
     border-radius: 10px;
@@ -908,8 +950,8 @@
     background-color: rgb(255, 38, 0);
 }
 .mae-header-16 button{
-    width: 250px;
-    height: 60px;
+    width: 100%;
+    height: 100%;
     background: #F53838;
     border-radius: 10px;
     border: white;
@@ -929,15 +971,15 @@
 }
 
 .filho-27{
-    width: 148px;
-    height: 36.23;
+    width: 100%;
+    height: 100%;
     padding-bottom: 20px;
     padding-top: 63.5;
 }
 
 .filho-28 {
-    width: 340px;
-    height: 61.67px;
+    width: 100%;
+    height: 100%;
     padding-bottom: 30px;
 }
 
@@ -965,8 +1007,8 @@
 }
 
 .filho-30{
-    width: 132px;
-    height: 30px;
+    width: 100%;
+    height: 100%;
     padding-bottom: 147.41px;
 }
 
