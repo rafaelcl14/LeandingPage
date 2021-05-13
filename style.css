@@ -10,6 +10,7 @@
     width: 100%;
     height: 100%;
     gap: 150px;
+    padding-top: 20px;
 }
 
 .pai{
@@ -40,6 +41,7 @@
 }
 
 
+
 .filho-2 h1{
    font-style: normal;
    font-weight: 400;
@@ -56,10 +58,33 @@
 }
 
 .neto-1 h1{
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+}
+
+.neto-1:hover h1{
+    color: red;
+    border-radius: 50px;
+}
+
+
+.neto-1:hover button{
+    background-color: red;
+    color: white;
+}
+
+.neto-1 button {
+   width: 150px;
+   height: 45px;
+   background-color: white;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 19px;
+   color: #F53838;
+   cursor: pointer;
+   border: 1px solid #F53855;
+   box-sizing: border-box;
+   border-radius: 50px;
 }
 
 .filho-3{
@@ -373,7 +398,7 @@
 .neto-6{
     display: flex;
     flex-direction: row;
-    background: crimson;
+    gap: 10px;
     
 }
 
@@ -382,9 +407,10 @@
 .mae-header-6{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    width: 20.6rem;
+    height: 48rem;
+    
+
     
 }
 
@@ -393,7 +419,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: coral;
+    
     
 }
 
@@ -403,12 +429,12 @@
 }
 
 .neto-7 {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     
-    background: darkblue;
 }
 
 .neto-7 h1 {
@@ -453,9 +479,25 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 100%;
-    background: chartreuse;
+    
+}
+
+
+.container-3{
+    width: 60%;
+    height: 12%;
+    display: flex;
+}
+
+.container-2{
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
 }
 
 /* hahahahahha */
@@ -469,17 +511,17 @@
     color:#4F5665;
 }
 
-.neto-9 h1{
+/* .neto-9 h1{
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
     text-align: center;
     color: #0B132A;
-}
+} */
 
 
-.neto-10{
+/* .neto-10{
     display: flex;
     flex-direction: row;
     padding-bottom: 10px;
@@ -489,15 +531,15 @@
 
 .neto-10 img {
     padding-right: 25.61px;
-}
+} */
 
-.mae-header-7{
+/* .mae-header-7{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding-top: 60px;
-}
+} */
 
 .neto-9 {
     display: flex;
@@ -512,7 +554,7 @@
     padding-bottom: 30px;
 }
 
-.neto-11 {
+/* .neto-11 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -548,8 +590,8 @@
    line-height: 19px;
    color: red;
    cursor: pointer;
-}
-
+} */
+/* 
 .filho-14:hover{
     border: 2px solid #ff0000;
 }
@@ -561,11 +603,11 @@
     border-radius: 10px;
     width: 100%;
     height: 100%;
-}
+} */
 
 /* 3- Card*/
 
-
+/* 
 .neto-13 h1{
     font-style: normal;
     font-weight: normal;
@@ -594,17 +636,17 @@
 
 .neto-13 img {
     padding-right: 25.61px;
-}
+} */
 
-.mae-header-8{
+/* .mae-header-8{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding-top: 60px;
-}
+} */
 
-.neto-12 {
+/* .neto-12 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -615,20 +657,16 @@
 .neto-12 h1{
     padding-top:30px ;
     padding-bottom: 30px;
-}
+} */
 
 .neto-14 {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 44px;
     
-}
-
-.neto-14:hover button{
-    background-color: #f70000;
-    border: 2px solid #f70000;;
+  
 }
 
 .neto-14 h1 {
@@ -641,22 +679,27 @@
     padding-bottom: 20px;
 }
 
+.neto-14:hover button{
+    background-color: red;
+    color: white;
+}
+
 .neto-14 button {
-   width: 177.88px;
-   height: 45px;
+   width: 100%;
+   height: 100%;
    border: 2px solid #F53838;
    box-sizing: border-box;
    border-radius: 50px;
-   background: #F53838;
+   background-color: white;
    font-style: normal;
    font-weight: bold;
    font-size: 16px;
    line-height: 19px;
-   color: white;
+   color: #F53838;
    cursor: pointer;
 }
 
-.filho-15:hover{
+/* .filho-15:hover{
     border: 2px solid #2de736; 
 }
 
@@ -667,7 +710,7 @@
     border-radius: 10px;
     width: 100%;
     height: 100%;
-}
+} */
 
 .sogra-1{
     display: flex;
@@ -678,18 +721,43 @@
 
 /* Mapa Mundi */
 
+
+.pai-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    height: 100%;
+}
+
 .mae-header-9{
   display: flex;
+  width: 100%;
   flex-direction: column;
+  gap: 10px;
   align-items: center;
 }
 
-.filho-16{
+.mae-header-10{
+    display: flex;
     width: 100%;
-    height: 100px;
-    padding-bottom: 20px;
-    padding-top: 150px;
+    justify-content: center;
+}
 
+.filho-16{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    height: 100px;
+    
+
+}
+
+.mae-header-11{
+    display: flex;
+    justify-content: center;
 }
 
 .filho-16 h1{
@@ -702,7 +770,7 @@
 }
 
 .filho-17{
-    width: 100%;
+    width: 34%;
     height: 100%;
 }
 
@@ -718,25 +786,18 @@
 .filho-18{
     width: 100%;
     height: 100%;
-    padding-left: 190px;
-    padding-top: 185.81px;
-    padding-right: 191.02px;
-    padding-bottom: 29.35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.filho-19{
-    width: 100%;
-    height: 100%;
-    padding-left: 145px;
-    padding-top: 6.45px;
-}
+
 
 .filho-20{
-    width: 100%;
+    width: 34%;
     height: 100%;
-    padding-left: 496.61px;
-    padding-right: 496.1px;
-    padding-bottom: 20px;    
+       
 }
 
 .filho-20 h1{
@@ -749,12 +810,8 @@
 }
 
 .filho-21{
-    width: 100%;
+    width: 37%;
     height: 100%;
-    padding-left: 442.5px;
-    padding-right: 442.5px;
-    padding-bottom: 60px;
-    
 }
 
 .filho-21 h1{
@@ -766,8 +823,13 @@
     color: #4F5665;
 }
 
-.mae-header-12{
-    padding-top: 50px;
+.pai-7{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
 }
 
 .conteudo-3{
@@ -806,11 +868,13 @@
 
 .neto-15{
     display: flex;
+    margin: 10px 0 10px 0px;
+    width: 100%;
+    height: 30%;
     flex-direction: row;
     gap: 108px;
-    padding-left: 30px;
-    padding-top: 19px;
-    
+   justify-content: center;
+   align-items: center;
 }
 
 .conteudo-2{
@@ -830,13 +894,40 @@
 }
 
 .neto-16{
-    width: 100%;
-    height: 100%;
-    padding-top: 20px;
-    padding-left: 30px;
+    width: 83%;
+    height: 50%;
+    margin: 0 0 30px 0;
+}
+
+.neto-18{
+   width: 10rem;
+   display: flex;
+   border-radius: 50%;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.neto-18 button{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: red;
+    border: red;
+}
+
+.neto-18 img{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    display: flex;
 }
 
 .neto-16 p{
+    
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -844,70 +935,186 @@
     display: flex;
     align-items: center;
     color: #0B132A;
-    padding-bottom: 30px;
+    
 }
 
-.nora-1{
-    width: 100%;
-    height: 100%;
+.neto-19{
+    width: 5rem;
     
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    border: red;
+ }
+ 
+ 
+ .neto-19 button{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background:white;
+    border: 3px solid red;
+    cursor: pointer;
+ }
+
+ .neto-19:hover button{
+    border: 3px solid green;
+    cursor: pointer;
+ }
+
+ 
+ 
+ .neto-19 img{
+     width: 50%;
+     height: 50%;
+     display: flex;
+     display: flex;
+ }
+ 
+ /* .neto-16 p{
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 30px;
+     display: flex;
+     align-items: center;
+     color: #0B132A;
+     
+ } */
+
+.nora-1{
+    width: 400px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background: #FFFFFF;
     border: 2px solid  #F53838;
     box-sizing: border-box;
     border-radius: 10px;
 }
 
+.nora-1:hover{
+    border: 2px solid green;
+}
 .filho-22{
-
-    padding-left: 150px;
     display: flex;
+    width: 33.33%;
+    height: 100%;
     flex-direction: row;
-    gap: 50px;
-
+    gap: 3%;
+    cursor: pointer;
 }
 
-.nora-2:hover{
-    border: 2px solid red;
+.filho-22:hover{
+    color: yellow;
+}
+
+
+
+
+.pai-7{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mae-header-12{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.mae-header-13{
+    display: flex;
+    width: 84%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+
+.mae-header-14{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    align-items: center;
 }
 
 .nora-2{
     width: 100%;
     height: 100%;
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background: #FFFFFF;
-    border: 2px solid #DDDDDD;
+    border: 2px solid #F53838;
     box-sizing: border-box;
     border-radius: 10px;
 }
 
-.mae-header-14{
+.filho-34{
+    display: flex;
+    width: 33.33%;
+    height: 33.33%;
+    flex-direction: column;
+
+    
+}
+
+.filho-35{
+    display: flex;
+    width: 33.33%;
+    justify-content: center;
+    border: 2px solid #F53838;
+    border-radius: 10px;
+}
+
+.conteudo-4{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.conteudo-5{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-left: 150px;
     align-items: center;
+    gap: 4%;
+}
+
+.neto-20{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .filho-24 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-right: 150px;
- 
+    justify-content: center;
 }
 
-.volta{
-    padding-top: 26px;
-}
-.filho-24 img{
-    display: flex;
-    align-items: center;
-}
 
 .filho-25 {
-    width: 100%;
+    width: 72%;
     height: 100%;
-    padding-bottom: 20px;  
+    display: flex;
+    flex-direction: column; 
 }
 
 .filho-25 h1{
@@ -923,13 +1130,42 @@
 .pai-8{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
-    padding-left: 150px;
-    background: #FFFFFF;
+    position: relative;
     border-radius: 10px;
+    
+    background: #F8F8F8;
+    height:35rem ;
+    
+}
+
+.jacare{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 72.5rem;
+    height: 14.5rem;
+    position: absolute;
+    left: 145px;
+    top: -139px;
+    background: white;
+}
+
+.calango{
+    display: flex;
+    gap: 8rem;
+}
+
+.crocodilo{
+    display: flex;
+    flex-direction: row;
+}
+
+.largatixa{
+    width: 50%;
 }
 
 .filho-26 h1{
@@ -942,16 +1178,28 @@
     color: #4F5665;
 }
 
-.mae-header-16{
-    padding-left: 340px;
+.mae-header-15{
+    display: flex;
+    width: 44%;
+    flex-direction: column;
+   gap: 10px;
+   padding-left: 4.3rem;
 }
+
+.mae-header-16{
+    display: flex;
+    width: 30%;
+
+}
+
+
 
 .mae-header-16:hover button{
     background-color: rgb(255, 38, 0);
 }
 .mae-header-16 button{
-    width: 100%;
-    height: 100%;
+    width: 250px;
+    height: 60px;
     background: #F53838;
     border-radius: 10px;
     border: white;
@@ -971,15 +1219,14 @@
 }
 
 .filho-27{
-    width: 100%;
-    height: 100%;
+   
     padding-bottom: 20px;
-    padding-top: 63.5;
+   
 }
 
 .filho-28 {
-    width: 100%;
-    height: 100%;
+    width: 71%;
+
     padding-bottom: 30px;
 }
 
@@ -1007,9 +1254,7 @@
 }
 
 .filho-30{
-    width: 100%;
-    height: 100%;
-    padding-bottom: 147.41px;
+  display: flex;
 }
 
 .filho-30 h1 {
