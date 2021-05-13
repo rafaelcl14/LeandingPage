@@ -1,0 +1,35 @@
+
+@media (max-width: 600px) {
+   .container{
+       background: crimson;
+   }
+
+   .mae-nav{
+       
+       flex-direction: column;
+       justify-content: center;
+       gap: 20px;
+      
+   }
+
+   .pai-2{
+       flex-direction: column;
+       align-items: none;
+       width: 0;
+       margin: 0;
+       
+   }
+
+   .mae-header{
+        flex-direction: row;
+        background: blueviolet;
+        width: 100%;
+   }
+
+   .filho-4{
+       
+       flex-direction: row;
+       width: 100%;
+       background: blueviolet;
+   }
+}
